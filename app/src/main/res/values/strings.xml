@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Sneakers</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesion</string>
+    <string name="action_settings2">Configuración</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Busqueda</string>
+    <string name="menu_slideshow">Carrito</string>
+    <string name="title_activity_login">Autenticacion</string>
+    <string name="prompt_email">Ingresa tu correo</string>
+    <string name="confirm_email">Confirma tu correo</string>
+    <string name="prompt_password">Ingresa tu contraseña</string>
+    <string name="confirm_password">Confirma tu contraseña</string>
+    <string name="action_sign_in">Registrate</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="welcome">"¡Bienvenido!"</string>
+    <string name="invalid_username">No es un usuario valido</string>
+    <string name="invalid_password">La contraseña debe ser mas larga</string>
+    <string name="login_failed">"Ingreso fallido"</string>
+    <string name="next">Siguiente</string>
+    <string name="access_data">Datos de acceso</string>
+    <string name="personal_data">Datos personales</string>
+    <string name="i_already_have_an_account">Ya tengo una cuenta</string>
+    <string name="first_name">Ingresa tu nombre</string>
+    <string name="last_name">Ingresa tu apellido</string>
+    <string name="gender">Seleciona tu genero</string>
+    <string name="back">Regresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragmento vacio</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="todo4">TODO</string>
+    <string name="_0_01">$0.0</string>
+    <string name="agregar">Agregar</string>
+    <string name="textview2">TextView</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="gps">GPS</string>
+    <string name="pais">Pais</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+    <string name="colonia">Colonia</string>
+    <string name="calle_1">Calle 1</string>
+    <string name="calle_2">Calle 2</string>
+    <string name="codigo_postal">Codigo postal</string>
+    <string name="numero_de_casa">Numero de casa</string>
+    <string name="todo5">TODO</string>
+    <string name="volver">Volver</string>
+    <string name="listo">Listo</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="n_mero_de_tarjeta">Número de tarjeta</string>
+    <string name="fecha_de_expiraci_n">Fecha de expiración</string>
+    <string name="c_digo">Código</string>
+    <string name="volver2">Volver</string>
+    <string name="listo2">Listo</string>
+    <string name="carrito">Carrito</string>
+    <string name="finalizar_compra">Finalizar compra</string>
+    <string name="historial_de_pedidos">Historial de pedidos</string>
+
+    <string-array name="opciones">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="tallas">
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674722869341",
+    "project_id": "sneakers-dcae8",
+    "storage_bucket": "sneakers-dcae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674722869341:android:23cf79179b8c8f5d045db4",
+        "android_client_info": {
+          "package_name": "com.iotec.sneakers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674722869341-jk5vnu4tug0gi665soju5pom4upmt9ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW_IBtuoC-e6tYfsN2GamZ5pDz7XkD5-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674722869341-jk5vnu4tug0gi665soju5pom4upmt9ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

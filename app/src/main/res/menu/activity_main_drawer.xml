@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Pantalla principal" />
+        <item
+            android:id="@+id/nav_busqueda"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Buscar productos" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Carrito de compra" />
+        <item
+            android:id="@+id/deseadoFragment"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Lista de deseados" />
+        <item
+            android:id="@+id/historialFragment"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Historial de pedidos" />
+    </group>
+</menu>

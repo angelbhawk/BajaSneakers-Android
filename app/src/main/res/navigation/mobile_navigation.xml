@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="com.iotec.sneakers.ui.main.PrincipalFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_principal_to_productoFragment"
+            app:destination="@id/productoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_busqueda"
+        android:name="com.iotec.sneakers.ui.main.CatalogoFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_busqueda_to_productoFragment"
+            app:destination="@id/productoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.iotec.sneakers.ui.main.CarritoFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_carrito">
+        <action
+            android:id="@+id/action_nav_carrito_to_direccionFragment"
+            app:destination="@id/direccionFragment" />
+        <action
+            android:id="@+id/action_nav_carrito_to_productoFragment"
+            app:destination="@id/productoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/compraFragment"
+        android:name="com.iotec.sneakers.ui.main.CompraFragment"
+        android:label="fragment_compra"
+        tools:layout="@layout/fragment_compra" >
+        <action
+            android:id="@+id/action_compraFragment_to_tarjetaFragment"
+            app:destination="@id/tarjetaFragment" />
+        <action
+            android:id="@+id/action_compraFragment_to_nav_principal"
+            app:destination="@id/nav_principal" />
+    </fragment>
+    <fragment
+        android:id="@+id/direccionFragment"
+        android:name="com.iotec.sneakers.ui.main.DireccionFragment"
+        android:label="fragment_direccion"
+        tools:layout="@layout/fragment_direccion" >
+        <action
+            android:id="@+id/action_direccionFragment_to_tarjetaFragment"
+            app:destination="@id/tarjetaFragment" />
+        <action
+            android:id="@+id/action_direccionFragment_to_nav_carrito"
+            app:destination="@id/nav_carrito" />
+    </fragment>
+    <fragment
+        android:id="@+id/tarjetaFragment"
+        android:name="com.iotec.sneakers.ui.main.TarjetaFragment"
+        android:label="fragment_tarjeta"
+        tools:layout="@layout/fragment_tarjeta" >
+        <action
+            android:id="@+id/action_tarjetaFragment_to_compraFragment"
+            app:destination="@id/compraFragment" />
+        <action
+            android:id="@+id/action_tarjetaFragment_to_direccionFragment"
+            app:destination="@id/direccionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productoFragment"
+        android:name="com.iotec.sneakers.ui.main.ProductoFragment"
+        android:label="fragment_producto"
+        tools:layout="@layout/fragment_producto" >
+        <action
+            android:id="@+id/action_productoFragment_to_nav_busqueda"
+            app:destination="@id/nav_busqueda" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_productoFragment_to_nav_principal"
+            app:destination="@id/nav_principal" />
+        <action
+            android:id="@+id/action_productoFragment_to_nav_carrito"
+            app:destination="@id/nav_carrito" />
+        <action
+            android:id="@+id/action_productoFragment_to_deseadoFragment"
+            app:destination="@id/deseadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deseadoFragment"
+        android:name="com.iotec.sneakers.ui.main.DeseadoFragment"
+        android:label="fragment_deseado"
+        tools:layout="@layout/fragment_deseado" >
+        <action
+            android:id="@+id/action_deseadoFragment_to_productoFragment"
+            app:destination="@id/productoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.iotec.sneakers.ui.main.HistorialFragment"
+        android:label="fragment_historial"
+        tools:layout="@layout/fragment_historial" />
+</navigation>
